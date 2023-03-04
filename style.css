@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order-wrapper{
+    width: 320px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: -2px 32px 55px -30px rgba(0,0,0,0.75);
+
+}
+.illustration-img{
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(images/illustration-hero.svg);
+    background-position: center;
+    background-size: contain;
+}
+.order-summary{
+    color: hsl(224, 23%, 55%);
+    height: 350px;
+    text-align: center;
+    /* margin: 20px; */
+    padding: 20px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.summary-text p{
+    font-size: 13px;
+    color: hsl(224, 23%, 55%);
+    margin-top: 10px;
+}
+.summary-text h3{
+    color: hsl(223, 47%, 23%);
+    font-size: 26px;
+}
+.annual-plan{
+    background-color: hsl(225, 100%, 98%);
+    height: 70px;
+    margin-top: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.annual-plan img{
+    position: absolute;
+    left: 13px;
+    width: 35px;
+    /* height: 20px; */
+}
+.annual-plan a{
+    position: absolute;
+    right: 13px;
+    color: hsl(245, 75%, 52%);
+}
+.annual-plan a:hover{
+    color: hsl(245, 75%, 72%);
+}
+.annual-plan span{
+    position: absolute;
+    left: 60px;
+    line-height: 24px;
+    color: hsl(224, 23%, 55%);
+}
+.annual-plan span p b{
+    color: hsl(223, 47%, 23%);;
+}
+.proceed-btn{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: -2px 32px 55px -30px rgba(0,0,0,0.75);
+}
+.proceed-btn:hover{
+    background-color: hsl(245, 75%, 72%);
+}
+.cancel-btn{
+    text-decoration: none;
+    color: hsl(245, 75%, 72%);
+}
+.cancel-btn:hover{
+    color: hsl(245, 75%, 52%);
+}
+
